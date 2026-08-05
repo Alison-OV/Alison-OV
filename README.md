@@ -3,7 +3,7 @@
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&color=A63885&pause=1000&width=1000&lines=Code+Hard,+Break+The+Mold;Innovate+Without+Fear;Imagine,+Build,+Inspire!" alt="Typing SVG" /></a>
 </p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/Alison-OV) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/alison-gissel) 
 
 ---
 
