@@ -54,4 +54,3 @@ Here are some of the technologies I work with:
   </p>
 
 ---
-
