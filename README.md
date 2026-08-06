@@ -55,10 +55,59 @@ Here are some of the technologies I work with:
 
 ---
 
-## ✨ GitHub Contribution
+## GitHub Contribution
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Alison-OV/Alison-OV/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Alison-OV/Alison-OV/output/github-contribution-grid-snake.svg">
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Alison-OV/Alison-OV/output/github-contribution-grid-snake.svg">
 </picture>
+
+---
+
+## Arquitectura de Datos Empresarial y Soluciones Backend Escalables
+
+```mermaid
+flowchart LR
+    %% Capa 1: Ingesta
+    subgraph Ingest [📦 Data Ingestion]
+        API[API REST / GraphQL]
+        DB[Enterprise DBs]
+        S3[S3 / Data Lake]
+    end
+
+    %% Capa 2: Procesamiento
+    subgraph Process [⚡ ETL & Processing]
+        Py[Python Services]
+        Spark[PySpark / Spark]
+        Batch[SSIS / Batch Jobs]
+    end
+
+    %% Capa 3: Almacenamiento
+    subgraph Storage [💾 Warehousing]
+        Fabric[Microsoft Fabric]
+        BQ[Google BigQuery]
+        DWH[Data Marts]
+    end
+
+    %% Capa 4: Consumo
+    subgraph Delivery [🚀 Serving & BI]
+        BI[Power BI / Looker]
+        API_Out[Backend APIs]
+        ML[ML Inference]
+    end
+
+    %% Flujos de datos principales
+    API --> Py
+    DB --> Py
+    S3 --> Spark
+    
+    Py --> Fabric
+    Spark --> BQ
+    
+    Fabric --> DWH
+    BQ --> DWH
+    
+    DWH --> BI
+    DWH --> API_Out
+    Fabric --> ML
