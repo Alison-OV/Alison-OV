@@ -54,3 +54,11 @@ Here are some of the technologies I work with:
   </p>
 
 ---
+
+## ✨ GitHub Contribution
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Alison-OV/Alison-OV/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Alison-OV/Alison-OV/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Alison-OV/Alison-OV/output/github-contribution-grid-snake.svg">
+</picture>
