@@ -1,4 +1,4 @@
-### 🚀 Hey there! I'm Alison-OV
+### Hey there! I'm Alison-OV
 <p>
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&color=A63885&pause=1000&width=1000&lines=Code+Hard,+Break+The+Mold;Innovate+Without+Fear;Imagine,+Build,+Inspire!" alt="Typing SVG" /></a>
 </p>
@@ -9,8 +9,8 @@
 
 ### About Me
 
-- 💻 Turning data and code into clean, scalable backend systems and intelligent architectures.
-- 🚀 Passionate about building web apps and AI-driven solutions.
+-  Turning data and code into clean, scalable backend systems and intelligent architectures.
+-  Passionate about building web apps and AI-driven solutions.
 
 ---
 
@@ -70,28 +70,28 @@ Here are some of the technologies I work with:
 ```mermaid
 flowchart LR
     %% Capa 1: Ingesta
-    subgraph Ingest [📦 Data Ingestion]
+    subgraph Ingest [ Data Ingestion]
         API[API REST / GraphQL]
         DB[Enterprise DBs]
         S3[S3 / Data Lake]
     end
 
     %% Capa 2: Procesamiento
-    subgraph Process [⚡ ETL & Processing]
+    subgraph Process [ ETL & Processing]
         Py[Python Services]
         Spark[PySpark / Spark]
         Batch[SSIS / Batch Jobs]
     end
 
     %% Capa 3: Almacenamiento
-    subgraph Storage [💾 Warehousing]
+    subgraph Storage [ Warehousing]
         Fabric[Microsoft Fabric]
         BQ[Google BigQuery]
         DWH[Data Marts]
     end
 
     %% Capa 4: Consumo
-    subgraph Delivery [🚀 Serving & BI]
+    subgraph Delivery [ Serving & BI]
         BI[Power BI / Looker]
         API_Out[Backend APIs]
         ML[ML Inference]
